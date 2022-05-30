@@ -1,17 +1,44 @@
-<mxfile host="app.diagrams.net" modified="2022-05-30T03:51:50.388Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="WNKLSs2AyQOHlO9BcgA0" version="18.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-30T05:16:19.780Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="OW9w8x5HtqxZANHrIZN6" version="18.1.3" type="github">
   <diagram id="k2VMT_UPC6N6cQDo78Fb" name="Page-1">
     <mxGraphModel dx="1422" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="c8VPz_tVHVszGVSgNp-8-7" value="10.240.131.196&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="570" y="320" width="210" height="120" as="geometry" />
+        <mxCell id="c8VPz_tVHVszGVSgNp-8-7" value="10.240.131.196&lt;br&gt;SHH(user name:ActionDemo password:Abcd@1234)&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="565" y="320" width="210" height="130" as="geometry" />
         </mxCell>
         <mxCell id="c8VPz_tVHVszGVSgNp-8-5" value="10.240.131.195&lt;br&gt;SHH(user name:ActionDemo password:Abcd@1234)&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="310" y="30" width="490" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="jDF254P2nWyJRFw_iBVI-2" value="self host" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="c8VPz_tVHVszGVSgNp-8-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.4;entryY=0.983;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jDF254P2nWyJRFw_iBVI-2" target="c8VPz_tVHVszGVSgNp-8-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="658" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c8VPz_tVHVszGVSgNp-8-26" value="2.Upload docker image" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="c8VPz_tVHVszGVSgNp-8-24">
+          <mxGeometry x="-0.512" y="-2" relative="1" as="geometry">
+            <mxPoint x="19" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jDF254P2nWyJRFw_iBVI-2" value="&lt;table style=&quot;border-spacing: 0px; border-collapse: collapse; tab-size: 8; color: rgb(36, 41, 47); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 14px; text-align: start; background-color: rgb(255, 255, 255);&quot; data-tagsearch-path=&quot;.github/workflows/WithPrivateServerCICD.yml&quot; data-tagsearch-lang=&quot;YAML&quot; data-paste-markdown-skip=&quot;&quot; data-tab-size=&quot;8&quot; class=&quot;highlight tab-size js-file-line-container js-code-nav-container js-tagsearch-file&quot;&gt;&lt;tbody style=&quot;box-sizing: border-box;&quot;&gt;&lt;tr style=&quot;box-sizing: border-box;&quot;&gt;&lt;/tr&gt;&lt;tr style=&quot;box-sizing: border-box; background-color: transparent;&quot;&gt;&lt;td style=&quot;box-sizing: border-box; padding: 0px 10px; position: relative; line-height: 20px; vertical-align: top; overflow: visible; font-family: ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; font-size: 12px; color: var(--color-fg-default); overflow-wrap: normal;&quot; class=&quot;blob-code blob-code-inner js-file-line&quot; id=&quot;LC12&quot;&gt;&lt;span style=&quot;box-sizing: border-box; color: var(--color-prettylights-syntax-string);&quot; class=&quot;pl-s&quot;&gt;self-hosted&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;box-sizing: border-box;&quot;&gt;&lt;td style=&quot;box-sizing: border-box; padding: 0px 10px; position: relative; width: 50px; min-width: 50px; font-family: ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; font-size: 12px; line-height: 20px; color: var(--color-fg-subtle); text-align: right; vertical-align: top; cursor: pointer; user-select: none;&quot; data-line-number=&quot;13&quot; class=&quot;blob-num js-line-number js-code-nav-line-number js-blob-rnum&quot; id=&quot;L13&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="380" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c8VPz_tVHVszGVSgNp-8-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jDF254P2nWyJRFw_iBVI-3" target="jDF254P2nWyJRFw_iBVI-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c8VPz_tVHVszGVSgNp-8-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jDF254P2nWyJRFw_iBVI-3" target="c8VPz_tVHVszGVSgNp-8-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="55" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c8VPz_tVHVszGVSgNp-8-13" value="jfrog.i8uu.com" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="c8VPz_tVHVszGVSgNp-8-12">
+          <mxGeometry x="-0.0773" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="jDF254P2nWyJRFw_iBVI-3" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="40" y="180" width="30" height="60" as="geometry" />
@@ -20,19 +47,59 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jDF254P2nWyJRFw_iBVI-5" value="github.com&lt;br&gt;(Git Action)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="160" y="180" width="120" height="60" as="geometry" />
+          <mxGeometry x="150" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c8VPz_tVHVszGVSgNp-8-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c8VPz_tVHVszGVSgNp-8-2" target="jDF254P2nWyJRFw_iBVI-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="150" />
+              <mxPoint x="550" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c8VPz_tVHVszGVSgNp-8-23" value="1. Download jar dependencies" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="c8VPz_tVHVszGVSgNp-8-22">
+          <mxGeometry x="0.3474" y="-1" relative="1" as="geometry">
+            <mxPoint y="-18" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="c8VPz_tVHVszGVSgNp-8-2" value="Jfrog Artifactory" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="610" y="100" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="c8VPz_tVHVszGVSgNp-8-3" value="OpenShift" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="615" y="370" width="120" height="60" as="geometry" />
+          <mxGeometry x="610" y="380" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="c8VPz_tVHVszGVSgNp-8-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c8VPz_tVHVszGVSgNp-8-4" target="c8VPz_tVHVszGVSgNp-8-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="c8VPz_tVHVszGVSgNp-8-29" value="reverse proxy&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="c8VPz_tVHVszGVSgNp-8-8">
+          <mxGeometry x="-0.2182" y="1" relative="1" as="geometry">
+            <mxPoint x="12" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="c8VPz_tVHVszGVSgNp-8-4" value="Nginx&lt;br&gt;http:880&lt;br&gt;https:8443" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c8VPz_tVHVszGVSgNp-8-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="jDF254P2nWyJRFw_iBVI-2" target="c8VPz_tVHVszGVSgNp-8-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="370" as="sourcePoint" />
+            <mxPoint x="500" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c8VPz_tVHVszGVSgNp-8-18" value="3. new app" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="c8VPz_tVHVszGVSgNp-8-17">
+          <mxGeometry x="-0.3588" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c8VPz_tVHVszGVSgNp-8-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="c8VPz_tVHVszGVSgNp-8-2" target="c8VPz_tVHVszGVSgNp-8-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="220" as="sourcePoint" />
+            <mxPoint x="440" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c8VPz_tVHVszGVSgNp-8-27" value="4.Download docker image" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="c8VPz_tVHVszGVSgNp-8-19">
+          <mxGeometry x="-0.2364" relative="1" as="geometry">
+            <mxPoint y="46" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
