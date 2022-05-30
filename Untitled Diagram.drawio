@@ -1,1 +1,34 @@
-<mxfile host="app.diagrams.net" modified="2022-05-30T03:35:23.332Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="m8U1PpLL77UN42T-CvdZ" version="18.1.3" type="github"><diagram id="k2VMT_UPC6N6cQDo78Fb" name="Page-1">xZRdT4MwFIZ/DYleaEa7sXk59qVGE+MSd2kKVFpTOKQ7yOavt0gZIFnUxMykF6fvefv1nJM6dJbsVppl4h4irhwyiHYOnTuEuENCnHIMon2ljCdeJcRaRtbUCGv5zq04sGouI77tGBFAocy6YghpykPsaExrKLq2F1DdUzMW856wDpnqqxsZoajUCRk3+jWXsahPdr2rKpOw2mxfshUsgqIl0YVDZxoAqyjZzbgq4dVcqnXLI9nDxTRP8ScLXudLMho+kHSzv31cFs/Sf7q5sNV5Yyq3D7aXxX1NQEOeRrzcxHWoXwiJfJ2xsMwWpuZGE5gom7bbcY18d/Se7uH1pm04JBz13ljsAjqxwGzHuPW8aPi7NVTRYu9ZjdmSx4etGyomsGB+AYn2IE1DBN0jZSqclWGeqMpA/ZKENN10xwKuHmArUUJqLAEgQtIyTJWMywTCF6KQo5Ipnx36e/A3mIffU6anhDzqQY4lijy4DA0n4ilzvh8Y5l5cRmcricZtMBue5//es653up410+bT+My1vl66+AA=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-30T03:47:53.249Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="sRD_rY_NFPWR1OaWCR0u" version="18.1.3" type="github">
+  <diagram id="k2VMT_UPC6N6cQDo78Fb" name="Page-1">
+    <mxGraphModel dx="1422" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c8VPz_tVHVszGVSgNp-8-5" value="192.168.1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="30" width="490" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="jDF254P2nWyJRFw_iBVI-2" value="self host" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="380" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jDF254P2nWyJRFw_iBVI-3" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="40" y="180" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c8VPz_tVHVszGVSgNp-8-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jDF254P2nWyJRFw_iBVI-5" target="jDF254P2nWyJRFw_iBVI-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jDF254P2nWyJRFw_iBVI-5" value="github.com&lt;br&gt;(Git Action)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c8VPz_tVHVszGVSgNp-8-2" value="Jfrog Artifactory" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c8VPz_tVHVszGVSgNp-8-3" value="OpenShift" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c8VPz_tVHVszGVSgNp-8-4" value="Nginx" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
