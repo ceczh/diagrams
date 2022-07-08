@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-08T05:28:27.547Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="d-C6k0fQ-JkN9BHN6Q2T" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-08T05:32:01.346Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="FRPNuuv1CK-XHbthbskV" version="20.0.4" type="github">
   <diagram name="Page-1" id="74b105a0-9070-1c63-61bc-23e55f88626e">
     <mxGraphModel dx="1422" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -88,6 +88,9 @@
         </mxCell>
         <mxCell id="d2Q_JBF2qQCRrt-6zEIx-5" value="Mode 2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=28;" vertex="1" parent="1">
           <mxGeometry x="180" y="370" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="d2Q_JBF2qQCRrt-6zEIx-6" value="Artifactory" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=28;" vertex="1" parent="1">
+          <mxGeometry x="618" y="500" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
