@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-08T03:36:07.745Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="VoB84tniqzuVXPxN9nYC" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-08T03:37:33.181Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="WMNtL7dtS8OMb6_hx7Y0" version="20.0.4" type="github">
   <diagram name="Page-1" id="74b105a0-9070-1c63-61bc-23e55f88626e">
     <mxGraphModel dx="1422" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -33,11 +33,11 @@
           <mxGeometry x="210" y="570" width="140" height="90" as="geometry" />
         </mxCell>
         <mxCell id="p1g5kv0qV7LEiEIXIhER-8" value="OpenShift" style="strokeWidth=2;dashed=0;align=center;fontSize=12;shape=rect;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#c0f5a9" parent="1" vertex="1">
-          <mxGeometry x="910" y="930" width="150" height="90" as="geometry" />
+          <mxGeometry x="870" y="150" width="150" height="90" as="geometry" />
         </mxCell>
         <mxCell id="p1g5kv0qV7LEiEIXIhER-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="p1g5kv0qV7LEiEIXIhER-14" target="p1g5kv0qV7LEiEIXIhER-8" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1008" y="900" as="targetPoint" />
+            <mxPoint x="968" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="p1g5kv0qV7LEiEIXIhER-13" value="Upload Chart" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="p1g5kv0qV7LEiEIXIhER-12" vertex="1" connectable="0">
@@ -46,13 +46,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="p1g5kv0qV7LEiEIXIhER-14" value="Local" style="strokeWidth=2;dashed=0;align=center;fontSize=12;shape=rect;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#c0f5a9" parent="1" vertex="1">
-          <mxGeometry x="560" y="930" width="140" height="90" as="geometry" />
+          <mxGeometry x="520" y="150" width="140" height="90" as="geometry" />
         </mxCell>
         <mxCell id="p1g5kv0qV7LEiEIXIhER-15" value="1.Build Package&lt;br&gt;2.Upload chart package to helm repository, Share chart for Openshift&amp;nbsp; to use" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#3333FF;" parent="1" vertex="1">
           <mxGeometry x="210" y="690" width="260" height="40" as="geometry" />
         </mxCell>
         <mxCell id="p1g5kv0qV7LEiEIXIhER-16" value="1.Download Chart to local or load chart form local files&lt;br&gt;2.Upload chart to Openshift and trigger deploy" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#3333FF;" parent="1" vertex="1">
-          <mxGeometry x="520" y="1040" width="300" height="40" as="geometry" />
+          <mxGeometry x="480" y="260" width="300" height="40" as="geometry" />
         </mxCell>
         <mxCell id="p1g5kv0qV7LEiEIXIhER-17" value="1.Config helm&amp;nbsp;&lt;span style=&quot;text-align: center;&quot;&gt;Repository URL to Openshift.&lt;br&gt;2.Openshfit plug-in can search the list of helm chart.&lt;br&gt;3.Select a chart from the list to deploy the project.&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#3333FF;" parent="1" vertex="1">
           <mxGeometry x="190" y="360" width="300" height="50" as="geometry" />
@@ -66,13 +66,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="p1g5kv0qV7LEiEIXIhER-18" value="Helm Repository" style="strokeWidth=2;dashed=0;align=center;fontSize=12;shape=rect;verticalLabelPosition=bottom;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="220" y="930" width="140" height="90" as="geometry" />
+          <mxGeometry x="180" y="150" width="140" height="90" as="geometry" />
         </mxCell>
         <mxCell id="p1g5kv0qV7LEiEIXIhER-19" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Helm&amp;nbsp;&lt;/span&gt;&lt;font color=&quot;#000000&quot;&gt;Client&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#3333FF;" parent="1" vertex="1">
           <mxGeometry x="245" y="600" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="p1g5kv0qV7LEiEIXIhER-20" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Helm&amp;nbsp;&lt;/span&gt;&lt;font color=&quot;#000000&quot;&gt;Client&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#3333FF;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="590" y="960" width="80" height="30" as="geometry" />
+          <mxGeometry x="550" y="180" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="p1g5kv0qV7LEiEIXIhER-21" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Helm&amp;nbsp;&lt;/span&gt;&lt;font color=&quot;#000000&quot;&gt;Client&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#3333FF;" parent="1" vertex="1">
           <mxGeometry x="245" y="600" width="80" height="30" as="geometry" />
@@ -80,8 +80,8 @@
         <mxCell id="p1g5kv0qV7LEiEIXIhER-22" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Helm&amp;nbsp;&lt;/span&gt;&lt;font color=&quot;#000000&quot;&gt;Client&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#3333FF;" parent="1" vertex="1">
           <mxGeometry x="245" y="600" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="d2Q_JBF2qQCRrt-6zEIx-3" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;1. Export the YAML deployment template from OpenShift.&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;2. Process the exported YAML and deploy the OpenShift project using the template.&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;3. Integrate the deployment template YAML into the Helm.&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;4. Deploy to OpenShift using Helm Clinet. (optional)&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;5. Create the Helm repository in Artifactory.&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;6.Helm packages and publishes the Artifactory Helm repository.&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;6.OpenShift configures the Helm warehouse.&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;7.OpenShift Helm plug-in deployment project.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="1020" y="420" width="480" height="280" as="geometry" />
+        <mxCell id="d2Q_JBF2qQCRrt-6zEIx-3" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;b&gt;Solution&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;1. Export the YAML deployment template from OpenShift.&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;2. Process the exported YAML and deploy the OpenShift project using the template.&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;3. Integrate the deployment template YAML into the Helm.&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;4. Deploy to OpenShift using Helm Clinet. (optional)&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;5. Create the Helm repository in Artifactory.&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;6.Helm packages and publishes the Artifactory Helm repository.&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;6.OpenShift configures the Helm warehouse.&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;7.OpenShift Helm plug-in deployment project.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="170" y="820" width="490" height="300" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
